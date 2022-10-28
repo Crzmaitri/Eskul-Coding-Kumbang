@@ -18,6 +18,12 @@ int main (){
 		cout<<"bilangan negatif";	
 	}
 		
+		cout<<endl<<endl;
+		
+		
+		if(a%2 == 0){
+			cout<<"bilangan ganjil";
+		}
 	
 	return 0;
 }
