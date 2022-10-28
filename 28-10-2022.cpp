@@ -8,6 +8,12 @@ int main (){
 	
 	if(a>0){
 		cout<<"bilangan positif";
+		if(a%2 == 0){
+			cout<<"bilangan genap";
+		}
+		else {
+			cout<<"bilangan ganjil";
+		}
 	}
 	else if (a==0){
 		cout<<"angka nol";
@@ -16,14 +22,17 @@ int main (){
 	
 	else{
 		cout<<"bilangan negatif";	
+		if(a%2 == 0){
+			cout<<"bilangan genap";
+		}
+		else {
+			cout<<"bilangan ganjil";
+		}
 	}
 		
 		cout<<endl<<endl;
 		
-		
-		if(a%2 == 0){
-			cout<<"bilangan ganjil";
-		}
+
 	
 	return 0;
 }
